@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^api.*$ api.php
+RewriteRule ^login/?$ login.php
+RewriteRule ^logout/?$ logout.php
+</IfModule>

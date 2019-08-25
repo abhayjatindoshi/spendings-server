@@ -1,0 +1,16 @@
+{
+    "name": "encryptorcode/family-expense-manager",
+    "description": "Expense managing app for family that helps you track all the expenses of a family and visualize areas where money could be saved.",
+    "type": "project",
+    "require": {
+        "encryptorcode/php-oauth-login": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abhay Jatin Doshi",
+            "email": "ajd1996@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
