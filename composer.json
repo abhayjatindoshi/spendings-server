@@ -3,7 +3,7 @@
     "description": "Expense managing app for family that helps you track all the expenses of a family and visualize areas where money could be saved.",
     "type": "project",
     "require": {
-        "encryptorcode/php-oauth-login": "^1.0"
+        "encryptorcode/php-oauth-login": "v1.0.1"
     },
     "license": "MIT",
     "authors": [

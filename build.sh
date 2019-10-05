@@ -69,7 +69,7 @@ constants(){
     done
 }
 
-# serversetup
-# clientsetup
+serversetup
+clientsetup
 build
 constants

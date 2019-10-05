@@ -36,7 +36,6 @@ class ChartService{
             $params[] = $last;
         }
         $query .= " group by category;";
-        error_log($query);
         $data = $this->dao->selectAll($query,$params);
         return $data;
     }

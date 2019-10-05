@@ -15,6 +15,7 @@ class Transaction extends Model{
     public $modifiedBy;
     public $createdTime;
     public $modifiedTime;
+    public $transactionTime;
 
     public function __construct(){
         UsersCache::loadUsers($this->createdBy,$this->modifiedBy);

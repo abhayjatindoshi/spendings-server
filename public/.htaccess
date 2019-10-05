@@ -3,4 +3,8 @@ RewriteEngine On
 RewriteRule ^api.*$ api.php
 RewriteRule ^login/?$ login.php
 RewriteRule ^logout/?$ logout.php
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.html [L]
 </IfModule>

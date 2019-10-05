@@ -34,6 +34,9 @@ class PortalService{
     }
 
     public function createPortal($portalData){
+
+        throw new ExceptionResponse("Potal creation is not allowed",'PORTAL_CREATION_NOT_ALLOWED',403);
+
         $currentUser = AuthRequest::user();
 
         $portal = new Portal();

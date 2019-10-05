@@ -30,7 +30,7 @@ class TransactionService{
             $query .= " AND id < ?";
             $params[] = $fromTransactionId;
         }
-        $query .= " ORDER BY id DESC";
+        $query .= " ORDER BY transactionTime DESC";
         if(!isset($limit)){
             $limit = '100';
         }
@@ -92,6 +92,12 @@ class TransactionService{
         if(isset($transactionData["description"])){
             $transaction->description = $transactionData["description"];
         }
+
+        if(isset($transactionData["transactionTime"])){
+            $transaction->transactionTime = $transactionData["transactionTime"];
+        } else {
+            $transaction->transactionTime = time();
+        }
         
         $transaction->amount = $transactionData["amount"];
         $transaction->createdBy = $currentUser;
@@ -122,6 +128,10 @@ class TransactionService{
 
         if(isset($transactionData["description"])){
             $transaction->description = $transactionData["description"];
+        }
+
+        if(isset($transactionData["transactionTime"])){
+            $transaction->transactionTime = $transactionData["transactionTime"];
         }
 
         if(isset($transactionData["amount"])){

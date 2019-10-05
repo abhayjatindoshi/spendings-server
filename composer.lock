@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "913e5930e2f8e4520c11c67cd9d9403b",
+    "content-hash": "5a2ea5b480d82ed581caa4cb07603451",
     "packages": [
         {
             "name": "encryptorcode/php-http-client",
@@ -45,17 +45,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/encryptorcode/php-oauth-login.git",
-                "reference": "bca8bd0e267f91d1fbac9793672309f92457b274"
+                "reference": "7e3729ce6447ede548b1f1b3bb20c8ca4a4ac449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/encryptorcode/php-oauth-login/zipball/bca8bd0e267f91d1fbac9793672309f92457b274",
-                "reference": "bca8bd0e267f91d1fbac9793672309f92457b274",
+                "url": "https://api.github.com/repos/encryptorcode/php-oauth-login/zipball/7e3729ce6447ede548b1f1b3bb20c8ca4a4ac449",
+                "reference": "7e3729ce6447ede548b1f1b3bb20c8ca4a4ac449",
                 "shasum": ""
             },
             "require": {
-                "encryptorcode/php-http-client": "^1.0",
-                "encryptorcode/php-server-utils": "^1.0"
+                "encryptorcode/php-http-client": "v1.0.0",
+                "encryptorcode/php-server-utils": "v1.0.1"
             },
             "type": "library",
             "autoload": {
@@ -74,20 +74,20 @@
                 }
             ],
             "description": "An authentication framework which lets you to configure any type of authentication using OAuth (includes login with Google, Facebook, Github etc.) all with user management in your control.",
-            "time": "2019-05-21T04:05:24+00:00"
+            "time": "2019-09-08T13:10:27+00:00"
         },
         {
             "name": "encryptorcode/php-server-utils",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/encryptorcode/php-server-utils.git",
-                "reference": "eac9deb00bc23202286654c4b3e38720b6005e55"
+                "reference": "0b0d37ebeb1a8d9a206c52dea7367f4c2b3ea3b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/encryptorcode/php-server-utils/zipball/eac9deb00bc23202286654c4b3e38720b6005e55",
-                "reference": "eac9deb00bc23202286654c4b3e38720b6005e55",
+                "url": "https://api.github.com/repos/encryptorcode/php-server-utils/zipball/0b0d37ebeb1a8d9a206c52dea7367f4c2b3ea3b0",
+                "reference": "0b0d37ebeb1a8d9a206c52dea7367f4c2b3ea3b0",
                 "shasum": ""
             },
             "type": "library",
@@ -107,7 +107,7 @@
                 }
             ],
             "description": "A bunch of classes used for handling requests and response seamlessly...",
-            "time": "2019-05-11T15:17:52+00:00"
+            "time": "2019-09-08T13:06:25+00:00"
         }
     ],
     "packages-dev": [],
